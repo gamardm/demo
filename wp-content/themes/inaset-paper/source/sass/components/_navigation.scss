@@ -1,0 +1,566 @@
+// ================================================
+// Navigation
+// ================================================
+
+// Main navigation
+// ------------------------------------------------
+
+.navigation {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 140px;
+	z-index: 2;
+	padding: 15px;
+	transition: $transition-timer;
+	
+	@include media($tablet-landscape) {
+		padding: 30px 2em 0 2em;
+	}
+	
+	&.cookie-is-open {
+		top: 80px;
+		
+		@include media($tablet-landscape) {
+			top: 50px;
+		}
+	}
+}
+
+.navigation-main-links {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	z-index: 3;
+}
+
+.button__main-menu {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 30px;
+	height: 26px;
+	transform: rotate(0deg);
+	transition: .5s ease-in-out;
+
+	span {
+		position: absolute;
+		display: block;
+		width: 30px;
+		height: 2px;
+		//margin: 10px auto;
+		background-color: $color-white;
+		opacity: 1;
+		left: 0;
+		transform: rotate(0deg);
+		transition: .25s ease-in-out;
+		
+		&:nth-child(1) {
+			top: 0;
+		}
+		
+		&:nth-child(2),
+		&:nth-child(3) {
+			top: 12px;
+		}
+		
+		&:nth-child(4) {
+			top: 24px;
+		}
+		
+		.page-where-to-buy &,
+		.page-contact & {
+			background-color: $color-red-dark;
+		}
+	}
+}
+
+.button__main-menu.is-open {
+	span {
+		
+		&:nth-child(1) {
+			top: 12px;
+			width: 0;
+			left: 50%;
+		}
+		
+		&:nth-child(2) {
+			transform: rotate(45deg);
+		}
+		
+		&:nth-child(3) {
+			transform: rotate(-45deg);
+		}
+		
+		&:nth-child(4) {
+			top: 12px;
+			width: 0;
+			left: 50%;
+		}
+	}
+}
+
+.logo-inaset {
+	display: block;
+	margin: 0 auto;
+	width: 200px;
+	height: 100px;
+	
+	svg {
+		fill: $color-white;
+		width: 100px;
+		height: auto;
+		
+		@include media($tablet-landscape) {
+			width: 200px;
+		}
+		
+		.page-where-to-buy &,
+		.page-contact & {
+			fill: $color-red-dark;
+		}
+	}
+}
+
+.secondary-menu {
+	position: absolute;
+	top: -4px;
+	right: 0;
+	@extend %clearfix;
+	
+	li {
+		display: none;
+		float: left;
+		
+		@include media($tablet-landscape) {
+			display: inline-block;
+			
+			.nav-is-fixed & {
+				display: none;
+			}
+		}
+		
+		&:not(:first-of-type) {
+			margin-left: 4px;
+		}
+		
+		a {
+			display: block;
+			font-size: em(13px);
+			font-weight: 400;
+			text-transform: uppercase;
+			color: $color-white;
+			text-decoration: none;
+			border: 1px solid transparent;
+			height: 35px;
+			padding: 6px 16px;
+			transition: $transition-timer;
+			
+			.page-where-to-buy &,
+			.page-contact & {
+				color: $color-red-dark;
+			}
+		}
+	}
+	
+	li:hover a,
+	li.current-menu-item a {
+		border-color: $color-white;
+		
+		.page-where-to-buy &,
+		.page-contact & {
+			border-color: $color-red-dark;
+		}
+	}
+	
+	li.secondary-menu__language {
+		margin-left: 20px;
+	}
+	
+	li.secondary-menu__language {
+		display: inline-block !important;
+		
+		.select-language {
+			display: block;
+			width: 38px;
+			height: 35px;
+			border: 1px solid $color-white;
+			background-color: transparent;
+			overflow: hidden;
+			
+			.page-where-to-buy &,
+			.page-contact & {
+				border-color: $color-red-dark;
+			}
+			
+			select {
+				position: relative;
+				top: -1px;
+				width: 100%;
+				height: 100%;
+				font-family: inherit;
+				font-size: em(14px) !important;
+				text-decoration: none;
+				color: $color-white;
+				padding: 0;
+				margin: 0;
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				text-align: center;
+				text-align-last: center;
+				
+				.page-where-to-buy &,
+				.page-contact & {
+					color: $color-red-dark;
+				}
+			}
+			
+			.page-product__offset & {
+				select {
+					color: $color-white;
+				}
+				
+				select option {
+					color: $color-white;
+					background-color: $color-red;
+				}
+			}
+
+			.page-product__laser & {
+				select {
+					color: $color-white;
+				}
+				
+				select option {
+					color: $color-white;
+					background-color: $color-green;
+				}
+			}
+			
+			.page-product__digital & {
+				select {
+					color: $color-white;
+				}
+				
+				select option {
+					color: $color-white;
+					background-color: $color-blue;
+				}
+			}
+			
+			.page-art-gallery & {
+				select {
+					color: $color-white;
+				}
+				
+				select option {
+					color: $color-white;
+					background-color: $color-black;
+				}
+			}
+		}
+	}
+}
+
+.context-menu {
+	display: none;
+	position: absolute;
+	top: -4px;
+	left: 60px;
+	z-index: 999;
+	
+	li {
+		display: inline-block;
+		
+		&:not(:last-of-type) {
+			margin-right: 4px;
+		}
+		
+		a {
+			display: block;
+			font-size: em(13px);
+			font-weight: 400;
+			text-transform: uppercase;
+			color: $color-white;
+			text-decoration: none;
+			border: 1px solid transparent;
+			height: 35px;
+			padding: 6px 16px;
+			transition: $transition-timer;
+		}
+	}
+	
+	li:hover a,
+	li.current-menu-item a {
+		border-color: $color-white;
+	}
+}
+
+.context-menu-mobile {
+	position: absolute;
+	display: block;
+	left: 60px;
+	top: 0;
+	z-index: 999;
+}
+
+// Main menu
+
+.main-menu-container {
+	display: none;
+	height: calc(100% - 4em);
+	overflow: auto;
+}
+
+.main-menu__products {
+	margin-top: 70px;
+	margin-bottom: 40px;
+	
+	@include media($tablet-landscape) {
+		margin-top: 60px;
+		margin-bottom: 40px;
+		padding-left: 200px;
+	}
+	
+	li:not(:last-of-type) {
+		margin-bottom: 20px;
+		
+		@include media($tablet-landscape) {
+			margin-bottom: 30px;
+		}
+	}
+	
+	li a {
+		display: block;
+		width: 260px;
+		background-position: left center;
+		background-repeat: no-repeat;
+		padding-left: 290px;
+		overflow: hidden;
+		opacity: .45;
+		transition: $transition-timer;
+		
+		@include media($tablet-landscape) {
+			width: 100%;
+			height: 75px;
+			font-size: em(55px);
+			font-family: $font-playfair;
+			font-weight: 700;
+			text-transform: lowercase;
+			color: $color-white;
+			text-decoration: none;
+			line-height: 1;
+			letter-spacing: 1px;
+		}
+	}
+	
+	li:hover a,
+	li.current-menu-item a {
+		opacity: 1;
+	}
+	
+	li.main-menu__product-offset a {
+		background-image: url('assets/images/inaset-offset-white.svg');
+	}
+
+	li.main-menu__product-laser a {
+		background-image: url('assets/images/inaset-laser-white.svg');
+	}
+
+	li.main-menu__product-digital a {
+		background-image: url('assets/images/inaset-digital-white.svg');
+	}
+	
+	li.main-menu__title {
+		display: none;
+		font-size: em(70px);
+		text-transform: uppercase;
+		letter-spacing: -1px;
+		color: $color-white;
+		margin-left: -5px;
+		margin-bottom: 40px;
+		line-height: 1;
+		
+		@include media($tablet-landscape) {
+			display: block;
+		}
+	}
+}
+
+.main-menu__other {
+	
+	@include media($tablet-landscape) {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 150px;
+		padding: 200px 1.5em 1.5em 1.5em;
+		background-color: $color-white;
+	}
+	
+	li {
+
+		&:not(:last-of-type) {
+			margin-bottom: 8px;
+			
+			@include media($tablet-landscape) {
+				margin-bottom: 46px;
+			}
+		}
+		
+		a {
+			display: block;
+			font-size: em(13px);
+			font-weight: 400;
+			text-transform: uppercase;
+			color: $color-white;
+			text-decoration: none;
+			transition: $transition-timer;
+			
+			@include media($tablet-landscape) {
+				color: $color-grey;
+			}
+		}
+		
+		&:hover a {
+			@include media($tablet-landscape) {
+				color: $color-red-dark;
+			}
+		}
+	}
+
+}
+
+// Main navigation - modifiers
+// ------------------------------------------------
+
+.navigation.nav-is-offset {
+	top: -140px;
+	height: 90px;
+	transition: $transition-timer;
+	
+	.logo-inaset {
+		display: none;
+	}
+}
+
+.navigation.nav-is-fixed {
+	position: fixed;
+	height: 60px;
+	top: 0;
+	transition: $transition-timer;
+	
+	@include media($tablet-landscape) {
+		height: 90px;
+	}
+	
+	.logo-inaset {
+		display: none;
+	}
+	
+	.context-menu {
+		display: none;
+		
+		@include media($tablet-landscape) {
+			display: block;
+		}
+	}
+	
+	.context-menu-mobile {
+		display: block;
+		
+		@include media($tablet-landscape) {
+			display: none;
+		}
+	}
+	
+	.page-product__offset & {
+		background-color: $color-red;
+	}
+	
+	.page-product__laser & {
+		background-color: $color-green;
+	}
+	
+	.page-product__digital & {
+		background-color: $color-blue;
+	}
+	
+	.page-art-gallery & {
+		background-color: $color-black;
+		
+		li.secondary-menu__art-gallery,
+		li.secondary-menu__awards {
+			display: none !important;
+		}
+	}
+	
+}
+
+.navigation.nav-is-open {
+	position: fixed;
+	height: 100%;
+	background-color: $color-red-dark;
+	
+	.main-menu-container {
+		display: block;
+	}
+	
+	.logo-inaset svg {
+		fill: $color-white;
+	}
+	
+	.secondary-menu {
+		li a {
+			color: $color-white;
+		}
+		
+		li:hover a,
+		li.current-menu-item a {
+			border-color: $color-white;
+		}
+		
+		li.secondary-menu__language a {
+			border-color: $color-white;
+		}
+	}
+	
+	@include media($tablet-landscape) {
+		.button__main-menu span {
+			background-color: $color-red-dark;
+		}
+	}
+}
+
+// Footer menu
+// ------------------------------------------------
+
+.footer-menu {
+	
+	li {
+		display: inline;
+		
+		&:not(:last-of-type) {
+			margin-right: 10px;
+			
+			&:after {
+				padding-left: 10px;
+				content: '|';
+				color: $color-red-dark;
+				font-size: em(13px);
+			}
+		}
+	}
+	
+	a {
+		color: $color-red-dark;
+		font-size: em(13px);
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		text-decoration: none;
+	}
+	
+}

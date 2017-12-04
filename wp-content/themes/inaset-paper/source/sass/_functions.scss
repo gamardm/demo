@@ -1,0 +1,26 @@
+// ================================================
+// Functions
+// ================================================
+
+// PX to REM
+// ------------------------------------------------
+
+@function rem($value) {
+	$rem: $value / $base-font-size;
+	@return #{$rem}rem;
+}
+
+// PX to EM
+// ------------------------------------------------
+
+@function em($value) {
+	$em: $value / $base-font-size;
+	@return #{$em}em;
+}
+
+// PX to %
+// ------------------------------------------------
+
+@function pc($value) {
+	@return ($value * 100%) / $base-font-size;
+}

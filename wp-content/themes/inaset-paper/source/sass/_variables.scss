@@ -1,0 +1,66 @@
+// ================================================
+// Variables
+// ================================================
+
+$editor-style: false !default;
+$ie: false !default;
+
+// Typography
+// ------------------------------------------------
+
+$base-font-size: 18px;
+$font-worksans: 'Work Sans', sans-serif;
+$font-playfair: 'Playfair Display', serif;
+
+// Grid
+// ------------------------------------------------
+
+$gutter: 30px;
+$columns: 12;
+$max-width: 1140px;
+
+// Colors
+// ------------------------------------------------
+
+$color-black: #000000;
+$color-white: #FFFFFF;
+$color-grey: #A3A19E;
+$color-grey-light: #F4F4F4;
+$color-red: #D31144;
+$color-red-dark: #9C1F40;
+$color-green: #75B843;
+$color-blue: #000066;
+// $color-green: #6DC1B3;
+// $color-green-light: #82DDCE;
+// $color-pink: #FF7275;
+// $color-violet: #404E94;
+// $color-blue: #70A2D3;
+// $color-grey: #F4F4F4;
+// $color-grey-dark: #808080;
+
+// z-index
+// ------------------------------------------------
+
+$z-below-content: 1;
+$z-content: 2;
+$z-above-content: 3;
+$z-upper-content: 4;
+
+// Transition timers
+// ------------------------------------------------
+
+$transition-timer: .3s;
+
+// Breakpoints
+// ------------------------------------------------
+
+$mobile: 320px;
+$iphone6: 375px;
+$mobile-landscape: 480px;
+$small-tablet: 600px;
+$tablet-portrait: 768px;
+$tablet-landscape: 1024px;
+$desktop: 1280px;
+$laptop: 1440px;
+$widescreen: 1920px;
+

@@ -1,0 +1,369 @@
+// ================================================
+// Typography
+// ================================================
+
+body {
+	font-family: $font-worksans;
+	font-weight: 400;
+	font-style: normal;
+	font-size: $base-font-size;
+	line-height: 28px / $base-font-size;
+	color: $color-black;
+}
+
+p {
+	margin: 0 0 1.5em 0;
+	padding: 0;
+	font-size: em(16px);
+	font-weight: 300;
+	
+	@include media($tablet-landscape) {
+		font-size: 1em;
+	}
+	
+	&.intro-text {
+		font-family: $font-playfair;
+		font-weight: 400;
+		letter-spacing: 1px;
+		
+		.block-header & {
+			margin: 0;
+			color: $color-white;
+			
+			.no-objectfit & {
+				max-width: 900px;
+			}
+		}
+		
+		.block-feature-bgcolor &,
+		.block-home & {
+			color: $color-white;
+		}
+		
+		.block-feature-didyouknow & {
+			span {
+				display: block;
+				font-family: $font-worksans;
+				font-weight: 400;
+				text-transform: uppercase;
+				font-size: em(36px);
+				letter-spacing: -1px;
+				line-height: 1.2;
+				
+				@include media($tablet-landscape) {
+					font-size: em(46px);
+				}
+			}
+		}
+		
+		@include media($tablet-landscape) {
+			font-size: em(22px);
+		}
+		
+		.page-404 & {
+			font-family: $font-worksans;
+			font-weight: 300;
+			font-size: em(16px);
+			
+			@include media($tablet-landscape) {
+				font-size: em(18px);
+			}
+		}
+	}
+	
+	&.sub-heading {
+		font-family: $font-playfair;
+		font-weight: 400;
+		font-size: em(35px);
+// 		text-transform: lowercase;
+		letter-spacing: 1px;
+		line-height: 1.2;
+		color: $color-white;
+		margin: 0;
+		
+		@include media($tablet-landscape) {
+			font-size: em(40px);
+			margin-bottom: 30px;
+		}
+		
+		.page-product__offset &,
+		.page-product__laser &,
+		.page-product__digital & {
+			font-size: em(35px);
+			text-transform: lowercase;
+		
+			@include media($tablet-landscape) {
+				font-size: em(55px);
+				margin-bottom: 0;
+			}
+		}
+		
+		.block-home & {
+			font-size: em(35px);
+			
+			@include media($tablet-landscape) {
+				font-size: em(55px);
+			}
+		}
+	}
+	
+	&.sub-title {
+		margin: 0;
+		font-size: em(13px);
+		font-weight: 400;
+		text-transform: uppercase;
+		
+		.page-product__offset & {
+			color: $color-red;
+		}
+		
+		.page-product__laser & {
+			color: $color-green;
+		}
+		
+		.page-product__digital & {
+			color: $color-blue;
+		}
+	}
+	
+	&.paper-weight-range {
+		display: inline-block;
+		margin: 20px 0 0 0;
+		padding-left: 40px;
+		line-height: 33px;
+		font-size: em(13px);
+		font-weight: 400;
+		text-transform: uppercase;
+		background-image: url('assets/images/icon-leaf.svg');
+		background-size: auto 33px;
+		background-position: left center;
+		background-repeat: no-repeat;
+		
+		.no-objectfit & {
+			background-image: none;
+			padding-left: 0;
+		}
+		
+		.block-header & {
+			color: $color-white;
+		}
+	}
+	
+	.block-art-gallery .slide-content &,
+	.block-product-intro &,
+	.block-product-feature &,
+	.product-canvas__description &,
+	.block-feature &,
+	.block-buy-locations & {
+		color: $color-grey;
+	}
+	
+	.block-product-print-selector & {
+		margin-bottom: 0;
+	}
+	
+	.block-case-studies .slide-content &,
+	.block-feature-full &,
+	.block-feature-bgcolor &,
+	.block-feature-didyouknow &,
+	.block-suggestions-form & {
+		color: $color-white;
+	}
+	
+	.product-range-notes & {
+		font-size: em(14px);
+		color: $color-red-dark;
+		letter-spacing: 1px;
+	}
+	
+	.home-product & {
+		font-family: $font-playfair;
+		font-weight: 400;
+		font-size: em(18px);
+		text-transform: lowercase;
+		letter-spacing: 1px;
+		line-height: 1.2;
+		color: $color-white;
+		margin: 0;
+		
+		@include media($tablet-landscape) {
+			font-size: em(20px);
+		}
+		
+		em {
+			font-weight: 700;
+			@include media($tablet-landscape) {
+				display: block;
+			}
+		}
+	}
+	
+}
+
+h1 {
+	margin: 0 0 20px 0;
+	padding: 0;
+	font-size: em(45px);
+	font-weight: 400;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	line-height: 1.2;
+	
+	@include media($tablet-landscape) {
+		font-size: em(70px);
+	}
+	
+	.block-header & {
+		color: $color-white;
+	}
+	
+	.page-where-to-buy &,
+	.page-contact & {
+		font-family: $font-playfair;
+		font-weight: 700;
+		font-size: em(26px);
+		text-transform: none;
+		letter-spacing: 1px;
+		color: $color-red-dark;
+		
+		@include media($tablet-landscape) {
+			font-size: em(36px);
+		}
+	}
+	
+	.page-art-gallery & {
+		display: none;
+	}
+}
+
+h2 {
+	margin: 0;
+	padding: 0;
+	font-size: em(26px);
+	font-family: $font-playfair;
+	font-weight: 700;
+	line-height: 24px / $base-font-size;
+	
+	@include media($tablet-landscape) {
+		font-size: em(36px);
+	}
+	
+	.block-generic-content & {
+		color: $color-red-dark;
+		margin-bottom: 1em;
+		margin-top: 2em;
+	}
+	
+	.home-product & {
+		font-family: $font-worksans;
+		font-weight: 700;
+		font-size: em(22px);
+		text-transform: uppercase;
+		color: $color-white;
+		
+		@include media($tablet-landscape) {
+			font-size: em(26px);
+		}
+	}
+	
+	.block-feature & {
+		color: $color-red-dark;
+		
+		@include media($tablet-landscape) {
+			font-size: em(55px);
+			line-height: 1.2;
+		}
+		
+		.page-navigator-company & {
+			font-family: $font-worksans;
+			font-weight: 400;
+			text-transform: uppercase;
+		}
+	}
+	
+	.block-feature-full &,
+	.block-suggestions-form & {
+		color: $color-white;
+		
+		@include media($tablet-landscape) {
+			font-size: em(55px);
+			line-height: 1.2;
+		}
+	}
+	
+	.block-suggestions-form & {
+		font-weight: 400;
+	}
+	
+	.block-buy-select__type & {
+		color: $color-white;
+		margin-bottom: 35px;
+	}
+
+}
+
+h3 {
+	font-size: em(32px);
+	font-family: $font-playfair;
+	font-weight: 700;
+	line-height: 24px / $base-font-size;
+	
+	@include media($tablet-landscape) {
+		font-size: em(40px);
+	}
+	
+	.block-product-feature & {
+		font-size: em(36px);
+		
+		@include media($tablet-landscape) {
+			font-size: em(55px);
+		}
+	}
+	
+	.product-canvas__image-info & {
+		font-size: em(36px);
+		color: $color-red-dark;
+		
+		@include media($tablet-landscape) {
+			font-size: em(36px);
+		}
+		
+	}
+	
+	.slide-content & {
+		font-size: em(35px);
+		color: $color-white;
+		
+		@include media($tablet-landscape) {
+			font-size: em(55px);
+		}
+
+	}
+	
+}
+
+h4 {
+	font-weight: 700;
+}
+
+h5 {
+	font-weight: 700;
+	font-size: em(16px);
+}
+
+strong {
+	font-weight: 700;
+}
+
+em {
+	font-style: italic;
+	
+	.sub-heading & {
+		font-weight: 700;
+	}
+}
+
+sup {
+	vertical-align: super;
+	font-size: 60%;
+}

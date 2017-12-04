@@ -1,0 +1,66 @@
+// ================================================
+// Mixins
+// ================================================
+
+// Font size
+// ------------------------------------------------
+
+@mixin font-size($value) {
+	font-size: $value;
+	font-size: em($value);
+}
+
+// Breakpoints
+// ------------------------------------------------
+
+@mixin media($value) {
+	@media (min-width: $value) {
+		@content;
+	}
+}
+
+// HiDPI
+// ------------------------------------------------
+
+@mixin hidpi() {
+	@media only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+		@content;
+	}
+}
+
+// Grid
+// ------------------------------------------------
+
+@mixin columns($columns) {
+	width: $columns * (($max-width / 12) * 100% / $max-width);
+}
+
+@mixin column-shift($columns) {
+	margin-left: $columns * (($max-width / 12) * 100% / $max-width);
+}
+
+@mixin column-offset($columns) {
+	margin-right: $columns * (($max-width / 12) * 100% / $max-width);
+}
+
+@mixin column-reset($nth) {
+	&:nth-child(#{$nth}+1) {
+		clear: none;
+	}
+}
+
+// Clearfix
+// ------------------------------------------------
+
+%clearfix {
+	&:before,
+	&:after {
+		display: table;
+		content: "";
+		line-height: 0;
+	}
+	
+	&:after {
+		clear: both;
+	}
+}

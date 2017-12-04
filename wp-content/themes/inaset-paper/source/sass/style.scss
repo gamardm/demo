@@ -1,0 +1,27 @@
+/*!
+Theme Name: inaset
+Theme URI: 
+Description: Theme for Inaset Paper (2017)
+Author: GOMO
+Author URI: http://www.gomo.pt/
+Version: 1.0
+Text Domain: inaset
+*/
+
+@import 'variables';
+@import 'functions';
+@import 'mixins';
+@import 'components/reset';
+@import 'components/typography';
+@import 'components/structure';
+@import 'components/elements';
+@import 'components/blocks';
+@import 'components/navigation';
+@import 'components/forms';
+@import 'components/modifiers';
+@import 'components/animations';
+@import 'components/helpers';
+
+[v-cloak] {
+	display: none;
+}

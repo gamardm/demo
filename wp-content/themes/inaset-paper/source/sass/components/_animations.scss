@@ -1,0 +1,59 @@
+// ================================================
+// Animations
+// ================================================
+
+@keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		transform: translate3d(0, 50%, 0);
+	}
+	
+	100% {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+.fadeInUp {
+	animation-name: fadeInUp;
+	animation-delay: 0;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-in-out;
+}
+
+[data-anim-delay='0'] {
+// 	opacity: 0;
+	animation-delay: 0;
+}
+
+[data-anim-delay='250'] {
+// 	opacity: 0;
+	animation-delay: 250ms;
+}
+
+[data-anim-delay='350'] {
+// 	opacity: 0;
+	animation-delay: 350ms;
+}
+
+[data-anim-delay='500'] {
+// 	opacity: 0;
+	animation-delay: 500ms;
+}
+
+[data-anim-delay='750'] {
+// 	opacity: 0;
+	animation-delay: 750ms;
+}
+
+[data-anim-delay='800'] {
+// 	opacity: 0;
+	animation-delay: 750ms;
+}
+
+[data-anim-delay='1000'] {
+// 	opacity: 0;
+	animation-delay: 1000ms;
+}
