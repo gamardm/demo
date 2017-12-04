@@ -3,17 +3,6 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-	<!--noptimize-->
-	<!--
-		 _____ _____ _____ _____
-		|   __|     |     |     |
-		|  |  |  |  | | | |  |  |
-		|_____|_____|_|_|_|_____|
-
-		https://www.gomo.pt/   Web Design / Development / WordPress
-
-	-->
-	<!--/noptimize-->
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
