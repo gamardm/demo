@@ -1,4 +1,4 @@
-<nav role="navigation" class="navigation js-vue-nav" :class="{'nav-is-open': mainIsOpen, 'nav-is-fixed': mainIsFixed, 'nav-is-offset': mainIsOffset, 'cookie-is-open': cookieIsOpen }" v-show="!showSplash">
+<nav role="navigation" class="navigation js-vue-nav" :class="{'nav-is-open': mainIsOpen, 'nav-is-fixed': mainIsFixed, 'nav-is-offset': mainIsOffset, 'cookie-is-open': cookieIsOpen }" v-show="!splashIsOpen">
 	<div class="navigation-main-links">
 		<button @click.prevent="toggleMainMenu" :class="{'button__main-menu':1,'is-open': mainIsOpen }" title="Main Menu">
 			<span></span>
