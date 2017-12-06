@@ -93,15 +93,15 @@ msgstr ""
 msgid "Contact Me"
 msgstr ""
 
-#: tpl-homepage.php:29
+#: tpl-homepage.php:40
 msgid "Let %sart%s be your canvas."
 msgstr ""
 
-#: tpl-homepage.php:30
+#: tpl-homepage.php:41
 msgid "Premium Quality Paper Brand for the Graphic Arts Industry."
 msgstr ""
 
-#: tpl-homepage.php:43
+#: tpl-homepage.php:54
 msgid "sublime %s"
 msgstr ""
 
@@ -153,7 +153,7 @@ msgstr ""
 msgid "Continue reading"
 msgstr ""
 
-#: parts/header-product.php:20, parts/header-product.php:20
+#: parts/header-product.php:31, parts/header-product.php:31
 msgid "Learn more"
 msgstr ""
 

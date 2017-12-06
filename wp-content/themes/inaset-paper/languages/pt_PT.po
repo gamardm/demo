@@ -1,0 +1,452 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: inaset\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:"
+"1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-03 15:42+0000\n"
+"PO-Revision-Date: 2017-11-07 16:53+0000\n"
+"Last-Translator: Antonio Amaro <antonio.amaro@stepvalue.com>\n"
+"Language-Team: Portuguese (Portugal)\n"
+"Language: pt-PT\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: tpl-contact-us.php:42
+msgid "United States of America"
+msgstr ""
+
+#: tpl-contact-us.php:44
+msgid "Spain"
+msgstr ""
+
+#: tpl-where-to-buy.php:155, tpl-where-to-buy.php:155,
+#: parts/where-to-buy-intro.php:19
+msgid "Distributors"
+msgstr "Distribuidores"
+
+#: tpl-where-to-buy.php:156, tpl-where-to-buy.php:156,
+#: parts/where-to-buy-intro.php:30
+msgid "Sales Offices"
+msgstr "Escritórios de Venda"
+
+#: tpl-where-to-buy.php:179, tpl-where-to-buy.php:222
+msgid "Loading ..."
+msgstr ""
+
+#: tpl-where-to-buy.php:193
+msgid "List view"
+msgstr "Vista lista"
+
+#: tpl-where-to-buy.php:199
+msgid "Please, select the country first"
+msgstr ""
+
+#: inc/theme-navigation.php:11
+msgid "Footer Menu"
+msgstr ""
+
+#: parts/where-to-buy-intro.php:20, parts/where-to-buy-intro.php:20,
+#: parts/where-to-buy-intro.php:31, parts/where-to-buy-intro.php:31
+msgid "Search here"
+msgstr "Procure aqui"
+
+#: inc/shortcake/shortcodes/class-feature-bgcolor.php:28,
+#: inc/shortcake/shortcodes/class-feature-did-you-know.php:37
+msgid "Left text"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-feature-bgcolor.php:34,
+#: inc/shortcake/shortcodes/class-feature-did-you-know.php:43
+msgid "Right text"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-feature-bgcolor.php:48
+msgid "Feature Color"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-feature-did-you-know.php:28,
+#: inc/shortcake/shortcodes/class-feature-full.php:50,
+#: inc/shortcake/shortcodes/class-feature.php:51,
+#: inc/shortcake/shortcodes/class-intro-image.php:28,
+#: inc/shortcake/shortcodes/class-product-canvas.php:28,
+#: inc/shortcake/shortcodes/class-product-feature.php:49
+msgid "Image"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-feature-did-you-know.php:32,
+#: inc/shortcake/shortcodes/class-feature-did-you-know.php:33,
+#: inc/shortcake/shortcodes/class-feature-did-you-know.php:53,
+#: inc/shortcake/shortcodes/class-feature-did-you-know.php:54,
+#: inc/shortcake/shortcodes/class-feature-did-you-know.php:63,
+#: inc/shortcake/shortcodes/class-feature-did-you-know.php:64,
+#: inc/shortcake/shortcodes/class-feature-full.php:44,
+#: inc/shortcake/shortcodes/class-feature-full.php:45,
+#: inc/shortcake/shortcodes/class-feature-full.php:54,
+#: inc/shortcake/shortcodes/class-feature-full.php:55,
+#: inc/shortcake/shortcodes/class-feature.php:55,
+#: inc/shortcake/shortcodes/class-feature.php:56,
+#: inc/shortcake/shortcodes/class-intro-image.php:32,
+#: inc/shortcake/shortcodes/class-intro-image.php:33,
+#: inc/shortcake/shortcodes/class-product-canvas.php:32,
+#: inc/shortcake/shortcodes/class-product-canvas.php:33,
+#: inc/shortcake/shortcodes/class-product-feature.php:38,
+#: inc/shortcake/shortcodes/class-product-feature.php:39,
+#: inc/shortcake/shortcodes/class-product-feature.php:53,
+#: inc/shortcake/shortcodes/class-product-feature.php:54,
+#: inc/shortcake/shortcodes/class-product-intro.php:53,
+#: inc/shortcake/shortcodes/class-product-intro.php:54,
+#: inc/shortcake/shortcodes/class-product-intro.php:62,
+#: inc/shortcake/shortcodes/class-product-intro.php:63
+msgid "Select Image"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-feature-did-you-know.php:49
+msgid "Icon 1"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-feature-did-you-know.php:59
+msgid "Icon 2"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-feature-full.php:28,
+#: inc/shortcake/shortcodes/class-feature.php:28,
+#: inc/shortcake/shortcodes/class-form-suggestions.php:28,
+#: inc/shortcake/shortcodes/class-product-feature.php:28,
+#: inc/shortcake/shortcodes/class-product-intro.php:37,
+#: inc/shortcake/shortcodes/class-product-print-selector.php:28,
+#: inc/shortcake/shortcodes/class-product-range.php:35
+msgid "Title"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-feature-full.php:40,
+#: inc/shortcake/shortcodes/class-feature.php:69,
+#: inc/shortcake/shortcodes/class-product-feature.php:34
+msgid "Icon"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-feature-full.php:69
+msgid "Feature Full"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-feature.php:41
+msgid "Text Alignment"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-feature.php:45
+msgid "Left"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-feature.php:46
+msgid "Right"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-feature.php:60
+msgid "Image offset"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-feature.php:64
+msgid "with offset"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-feature.php:73,
+#: inc/shortcake/shortcodes/class-feature.php:74
+msgid "Select Icon"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-feature.php:89
+msgid "Feature"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-form-suggestions.php:34,
+#: inc/shortcake/shortcodes/class-intro-image.php:37,
+#: inc/shortcake/shortcodes/class-intro.php:28
+msgid "Text"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-form-suggestions.php:48
+msgid "Form Suggestions"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-intro-image.php:43,
+#: inc/shortcake/shortcodes/class-intro.php:34
+msgid "Link"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-intro-image.php:48,
+#: inc/shortcake/shortcodes/class-intro.php:39
+msgid "Link Label"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-intro-image.php:62
+msgid "Page Intro Image"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-intro.php:53
+msgid "Page Intro"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-product-canvas.php:43
+msgid "Gallery"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-product-canvas.php:45
+msgid "You can select multiple images."
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-product-canvas.php:62
+msgid "Product Canvas"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-product-canvas.php:129
+msgid "Close window"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-product-case-studies.php:36
+msgid "Case Studies Slider"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-product-feature.php:66
+msgid "Product Feature"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-product-intro.php:28
+msgid "Product Logo"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-product-intro.php:32,
+#: inc/shortcake/shortcodes/class-product-intro.php:33
+msgid "Select Logo"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-product-intro.php:49
+msgid "Product Image"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-product-intro.php:58
+msgid "Product Certifications Logos"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-product-intro.php:67
+msgid "CTA Label"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-product-intro.php:81
+msgid "Product Intro"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-product-print-selector.php:42
+msgid "Product Applications"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-product-range.php:29
+msgid "Subtitle"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-product-range.php:47
+msgid "Other Notes"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-text-content.php:34
+msgid "Texto Livre"
+msgstr ""
+
+#: inc/shortcake/shortcodes/class-text-content.php:48
+msgid "Free Text"
+msgstr ""
+
+#: 404.php:10
+msgid "Error 404"
+msgstr "Erro 404"
+
+#: 404.php:11
+msgid ""
+"Unfortunately the content you’re looking for isn’t here. There may be a "
+"misspelling in your web address or you may have clicked a link for content "
+"that no longer exists."
+msgstr ""
+"Infelizmente, o conteúdo que procura não existe. Pode haver um erro no "
+"endereço do website or pode ter clicado num link para um conteúdo que deixou "
+"de existir. "
+
+#: 404.php:14, 404.php:14
+msgid "Back to homepage"
+msgstr "Voltar à página inicial"
+
+#: header.php:56
+msgid "Our%sPapers"
+msgstr "Os Nossos%sPapéis "
+
+#: tpl-contact-us.php:20
+msgid "Your message was sent successfully. Thanks."
+msgstr "A sua mensagem foi enviada com sucesso. Obrigado."
+
+#: tpl-contact-us.php:21
+msgid ""
+"Failed to send your message. Please try again later or contact administrator "
+"by other way."
+msgstr ""
+"Houve um erro no envio da sua mensagem. Por favor, tente mais tarde ou "
+"contacte-nos por outro meio."
+
+#: tpl-contact-us.php:28, tpl-contact-us.php:29
+msgid "Name"
+msgstr "Nome"
+
+#: tpl-contact-us.php:31, tpl-contact-us.php:32
+msgid "Email"
+msgstr "Email"
+
+#: tpl-contact-us.php:34, tpl-contact-us.php:35
+msgid "Telephone"
+msgstr "Telefone"
+
+#: tpl-contact-us.php:37
+msgid "Country"
+msgstr "País"
+
+#: tpl-contact-us.php:40
+msgid "Choose a country"
+msgstr "Selecione um país"
+
+#: tpl-contact-us.php:48, tpl-contact-us.php:49
+msgid "City"
+msgstr "Cidade"
+
+#: tpl-contact-us.php:51
+msgid "Language"
+msgstr "Idioma"
+
+#: tpl-contact-us.php:54
+msgid "Choose a Language"
+msgstr "Escolha um idioma"
+
+#: tpl-contact-us.php:62, tpl-contact-us.php:63
+msgid "Company"
+msgstr "Empresa"
+
+#: tpl-contact-us.php:65, tpl-contact-us.php:66
+msgid "Job"
+msgstr "Função"
+
+#: tpl-contact-us.php:68
+msgid "Subject"
+msgstr "Assunto"
+
+#: tpl-contact-us.php:77
+msgid "Remarks"
+msgstr "obs"
+
+#: tpl-contact-us.php:80
+msgid "Contact Me"
+msgstr "Contactem-me"
+
+#: tpl-homepage.php:27
+msgid "Let %sart%s be your canvas."
+msgstr "Permita que a %sarte%s seja a sua tela"
+
+#: tpl-homepage.php:28
+msgid "Premium Quality Paper Brand for the Graphic Arts Industry."
+msgstr ""
+"Marca de Papel de Qualidade Superior para a Indústria das Artes Gráficas"
+
+#: tpl-homepage.php:41
+msgid "sublime %s"
+msgstr "%s sublime"
+
+#: inc/theme-navigation.php:8
+msgid "Main Menu"
+msgstr "Menu Principal"
+
+#: inc/theme-navigation.php:9
+msgid "Products Menu"
+msgstr "Menu de Produtos"
+
+#: inc/theme-navigation.php:10
+msgid "Secondary Menu"
+msgstr "Menu Secundário"
+
+#: inc/theme-template-tags.php:5
+msgid "I want to buy your paper"
+msgstr "Quero comprar o vosso papel"
+
+#: parts/cookie-notice.php:12
+msgid ""
+"By continuing to browse this site you are agreeing to our use of cookies. "
+"Review our %scookies policy%s for details or change your cookies preferences."
+msgstr ""
+"Ao continuar a navegar neste site, você concorda com o nosso uso de cookies. "
+"Consulte a nossa  %spolítica de cookies%s ou altere as suas preferências"
+
+#: parts/header-awards.php:6, parts/header-page.php:5
+msgid "Continue reading"
+msgstr "Continuar a ler"
+
+#: parts/header-product.php:20, parts/header-product.php:20
+msgid "Learn more"
+msgstr "Saiba mais"
+
+#: inc/shortcake/shortcodes/class-feature-did-you-know.php:78
+msgid "Did You Know"
+msgstr "Sabia que"
+
+#: inc/shortcake/shortcodes/class-feature-full.php:34,
+#: inc/shortcake/shortcodes/class-feature.php:34,
+#: inc/shortcake/shortcodes/class-product-canvas.php:37,
+#: inc/shortcake/shortcodes/class-product-feature.php:43,
+#: inc/shortcake/shortcodes/class-product-intro.php:43,
+#: inc/shortcake/shortcodes/class-product-range.php:41
+msgid "Description"
+msgstr "Descrição"
+
+#: inc/shortcake/shortcodes/class-form-suggestions.php:97
+msgid "Your suggestion was sent successfully. Thanks."
+msgstr "A sua sugestão foi enviada com sucesso. Obrigado."
+
+#: inc/shortcake/shortcodes/class-form-suggestions.php:98
+msgid ""
+"Failed to send your suggestion. Please try again later or contact "
+"administrator by other way."
+msgstr ""
+"Não foi possível enviar a sua sugestão. Por favor, tente mais tarde ou "
+"contacte-nos por outro meio."
+
+#: inc/shortcake/shortcodes/class-form-suggestions.php:103,
+#: inc/shortcake/shortcodes/class-form-suggestions.php:104,
+#: inc/shortcake/shortcodes/class-form-suggestions.php:104
+msgid "Your name"
+msgstr "O seu nome"
+
+#: inc/shortcake/shortcodes/class-form-suggestions.php:106,
+#: inc/shortcake/shortcodes/class-form-suggestions.php:107,
+#: inc/shortcake/shortcodes/class-form-suggestions.php:107
+msgid "Your email"
+msgstr "O seu email"
+
+#: inc/shortcake/shortcodes/class-form-suggestions.php:109,
+#: inc/shortcake/shortcodes/class-form-suggestions.php:110,
+#: inc/shortcake/shortcodes/class-form-suggestions.php:110
+msgid "URL of the site where is your suggestion"
+msgstr "URL do site onde está a sua sugestão"
+
+#: inc/shortcake/shortcodes/class-form-suggestions.php:112,
+#: inc/shortcake/shortcodes/class-form-suggestions.php:113,
+#: inc/shortcake/shortcodes/class-form-suggestions.php:113
+msgid "Why am I making this suggestion?"
+msgstr "Por que é que está a fazer esta sugestão?"
+
+#: inc/shortcake/shortcodes/class-form-suggestions.php:115
+msgid "Send suggestion"
+msgstr "Enviar sugestão"
+
+#: inc/shortcake/shortcodes/class-product-range.php:62
+msgid "Product Range"
+msgstr "Gama de Produto"
